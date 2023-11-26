@@ -7,13 +7,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
-}
+//class ViewController: UIViewController {
+//
+//    @IBOutlet weak var imageView: UIImageView!
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//
+//
+//        let sepia = SepiaFilter(displayName: "Speia")
+//        let filterManager = try? FilterManager(filters: [InvertFilter(displayName: "Gray")])
+//            filterManager?.applyFilters(to: self.imageView.image!, completion: { images in
+//                self.imageView.image = images.first?.image
+//            })
+//
+//
+//    }
+//
+//
+//}
 
